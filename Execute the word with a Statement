@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        String a;
+        Scanner wrd = new Scanner(System.in);
+        a=wrd.next();
+        String b="May I know how to learn "+a+"!!!...";
+        System.out.println(b);
+    }
+}
