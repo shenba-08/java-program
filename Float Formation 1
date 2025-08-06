@@ -1,0 +1,34 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution { 
+    
+    public static void main(String[] args) {
+        float a;
+           Scanner sc=new Scanner(System.in);
+           a=sc.nextFloat();
+           int b= (int) a;
+           float c=a;
+           float k=(c-b);
+           System.out.printf("%.6f\n",a);
+           System.out.printf("%.4f\n",a);
+           System.out.println(a);
+           
+           if(k>0.50){
+               System.out.println(b+1);
+               
+           }
+          else{
+              System.out.println(b);
+    
+    
+    }
+}
+}
+
+        
+  
+    
