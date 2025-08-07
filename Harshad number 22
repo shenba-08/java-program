@@ -1,0 +1,29 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+         Scanner nm = new Scanner(System.in);
+        int num = nm.nextInt();
+        int temp = num;
+        int sum = 0;
+
+        while (temp > 0) {
+            sum += temp % 10;
+            temp /= 10;
+        }
+
+        if (num % sum == 0) {
+            System.out.println("Harshad Number");
+        } else {
+            System.out.println("Not Harshad Number");
+        }
+    }
+}
+
+
+    
