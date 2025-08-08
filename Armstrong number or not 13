@@ -1,0 +1,31 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+       Scanner sk = new Scanner(System.in);
+        int a= sk.nextInt();
+        int count=0;
+        int num=a;
+        if(a>=100 && a<999){
+            while(num>0){
+                int b = num % 10;
+                int c = b*b*b;
+                count +=c;
+                num=num/10; }
+                if(count == a){
+                    System.out.println("Yes");
+                }
+                   
+                
+                
+            
+        }else {
+            System.out.println("No");
+        }
+    }
+}
